@@ -1,0 +1,154 @@
+header{
+    background-color: #EAC926;
+}
+
+header p{
+text-align: center;
+width: 100vw;
+}
+
+.burger-menu{
+    color:white;
+    background-color: #1259c3;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section h3{
+font-size: 24px;
+}
+
+.producto, .oferta{
+    margin: 10px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-width: 15px;
+    padding: 15px;
+    box-sizing: content-box;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    position: absolute;
+    right: 100px;
+}
+
+.precio{
+font-size: 18px; 
+width: 30%;
+height: 30%;
+}
+
+.descuento{
+font-size: 16px; 
+color: green;
+width: 70%;
+height: 70%;
+}
+
+.descripcion{
+    font-size: 16px; 
+}
+
+footer{
+    font: size 12px;
+    text-align: center;
+}
+
+.fa-credit-card{
+ font-size: 2em;
+ margin: 10px;
+ color:#1259c3
+}
+
+.fa-gift{
+    font-size: 2em;
+    margin: 10px;
+    color:#1259c3
+}
+
+.fa-user-shield{
+    font-size: 2em;
+    margin: 10px;
+    color:#1259c3
+}
+
+.fa-truck-moving{
+    color: green;
+}
+
+@media (0px <= width <= 480px){
+    nav{
+        display: none;
+    }
+    .descripcion{
+        display: none;
+    }
+}
+
+@media (481px <= width <= 768px){
+    .burger-menu{
+        display: none;
+    }
+    .producto, .oferta{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+} 
+}
+
+@media (769px <= width <= 1024px){
+    .burger-menu{
+        display: none;
+    }
+    .producto, .oferta{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (1025px <= width <= 1200px){
+    .burger-menu{
+        display: none;
+    }
+    .producto, .oferta{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+}
